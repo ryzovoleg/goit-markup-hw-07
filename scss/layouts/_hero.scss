@@ -1,4 +1,4 @@
-/* ----- HEADER ----- */
+/* ----- hero ----- */
 
 .hero {
     max-width: 1600px;
@@ -18,17 +18,20 @@
     url(../images/main/hero-cover.jpg);
 }
 
-.hero-container {
-    max-width: 696px;
-    text-align: centr;
-}
-
-.hero__text {
+.hero__title {
     margin-bottom: 30px;
-
-    @include font(44px, 900, 1.36, 0.06em);
+    max-width: 696px;
+    margin-left: auto;
+    margin-right: auto;
+    @include font(44px, 900, 1.36, 0,06em);
 
     text-align: center;
     text-transform: uppercase;
     color: var(--secondary-font-color);
+}
+
+.hero__btn {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
