@@ -15,8 +15,3 @@ body {
     text-align: center;
     color: var(--primary-font-color);
 }
-
-.uppercase-title {
-    @include font(14px, 700, 1.14, 0.03em);
-    text-transform: uppercase;
-}
