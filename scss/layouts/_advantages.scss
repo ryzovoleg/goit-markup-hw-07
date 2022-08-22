@@ -1,0 +1,28 @@
+/* ----- OUR ADVANTAGES ----- */
+
+.advantages {
+    display: flex;
+}
+
+.advantages__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.advantages__title {
+    margin-bottom: 10px;
+
+    color: var(--primary-font-color);
+}
+
+.advantages__text {
+    @include font(14px, 400, 1.71, 0.03em);
+    color: var(--description-font-color);
+}
+
+.advantages__wrapper {
+    @extend %flexcenter;
+
+    margin-bottom: 30px;
+    height: 120px;
+    background-color: var(--background-color-additional);
+}
