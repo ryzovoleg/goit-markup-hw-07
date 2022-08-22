@@ -38,6 +38,8 @@
 }
 
 .footer__text {
+    @include font(14px, 700, 1.14, 0.03em);
+    text-transform: uppercase;
     color: var(--secondary-font-color);
     margin-bottom: 20px;
 }
