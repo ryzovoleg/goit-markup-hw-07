@@ -62,8 +62,8 @@
     @include transition(transform);
     }
     
-    .projects__link:hover .project-overlay,
-    .projects__link:focus .project-overlay {
+    .projects__link:hover &,
+    .projects__link:focus & {
         transform: translateY(0);
     }
 
