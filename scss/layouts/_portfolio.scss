@@ -60,12 +60,12 @@
     background-color: rgba(33, 150, 243, 0.9);
     transform: translateY(100%);
     @include transition(transform);
-    }
-    
+
     .projects__link:hover &,
     .projects__link:focus & {
         transform: translateY(0);
     }
+}
 
 .projects__textgroup {
     padding: 20px 24px;

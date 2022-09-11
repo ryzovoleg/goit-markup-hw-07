@@ -31,11 +31,11 @@
     display: -ms-flexbox;
     display: flex;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
 }
 
 .btn, .portfolio-btn {
@@ -43,8 +43,8 @@
     cursor: pointer;
     border-radius: 4px;
     -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
     text-align: center;
 }
 
@@ -129,9 +129,9 @@ address {
     background-color: var(--background-color-primary);
     color: var(--icon-color);
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: color, background-color;
     transition-property: color, background-color;
 }
@@ -176,9 +176,9 @@ address {
     background-color: #00000033;
     opacity: 1;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: opacity;
     transition-property: opacity;
 }
@@ -193,7 +193,7 @@ address {
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%) scale(1);
-    transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1);
     min-height: 581px;
     min-width: 528px;
     padding: 40px;
@@ -203,9 +203,9 @@ address {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
@@ -214,7 +214,7 @@ address {
 
 .backdrop.is-hidden .modal-wrapper {
     -webkit-transform: translate(20%, -50%) scale(0.8);
-    transform: translate(20%, -50%) scale(0.8);
+            transform: translate(20%, -50%) scale(0.8);
 }
 
 .close-btn {
@@ -274,9 +274,9 @@ address {
     outline: transparent;
     cursor: pointer;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: border-color;
     transition-property: border-color;
 }
@@ -297,22 +297,22 @@ address {
     top: 50%;
     left: 12px;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: fill;
     transition-property: fill;
 }
 
-.modal-form__input:focus+.modal-form__icon {
+.modal-form__input:focus + .modal-form__icon {
     fill: var(--accent-color);
 }
 
 .close-btn__icon {
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: fill;
     transition-property: fill;
 }
@@ -336,7 +336,7 @@ address {
     transition-property: background-color;
 }
 
-.modal-form__checkbox:checked+.modal-form__custom-checkbox {
+.modal-form__checkbox:checked + .modal-form__custom-checkbox {
     outline: transparent;
     background-color: var(--accent-color);
 }
@@ -344,14 +344,14 @@ address {
 .modal-form__custom-checkbox-icon {
     opacity: 0;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: opacity;
     transition-property: opacity;
 }
 
-.modal-form__checkbox:checked+.modal-form__custom-checkbox .modal-form__custom-checkbox-icon {
+.modal-form__checkbox:checked + .modal-form__custom-checkbox .modal-form__custom-checkbox-icon {
     opacity: 1;
 }
 
@@ -376,7 +376,7 @@ address {
     padding: 16px 15px;
     border: 1px solid rgba(255, 255, 255, 0.3);
     -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+            filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     background-color: transparent;
     outline: transparent;
@@ -391,9 +391,9 @@ address {
     line-height: 1.63;
     letter-spacing: 0.03em;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: color, background-color, -webkit-box-shadow;
     transition-property: color, background-color, -webkit-box-shadow;
     transition-property: color, background-color, box-shadow;
@@ -404,7 +404,7 @@ address {
     background-color: var(--accent-color);
     color: var(--secondary-font-color);
     -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+            box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 /* ----- HEADER ----- */
@@ -428,9 +428,9 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: color;
     transition-property: color;
 }
@@ -485,9 +485,9 @@ address {
     line-height: 1.14;
     letter-spacing: 0.02em;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: color;
     transition-property: color;
 }
@@ -613,7 +613,7 @@ address {
     margin-right: 30px;
     background-color: var(--background-color-primary);
     -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
 }
 
@@ -654,9 +654,9 @@ address {
     border: 1px solid var(--icon-color);
     border-radius: 5px;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: color, border-color;
     transition-property: color, border-color;
 }
@@ -697,8 +697,8 @@ address {
 
 .footer__socials-container {
     -webkit-box-flex: 1;
-    -ms-flex-positive: 1;
-    flex-grow: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     margin-right: 93px;
 }
 
@@ -761,15 +761,15 @@ address {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+        flex-wrap: wrap;
 }
 
 .projects__link {
     display: block;
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: -webkit-box-shadow;
     transition-property: -webkit-box-shadow;
     transition-property: box-shadow;
@@ -778,12 +778,12 @@ address {
 
 .projects__link:hover, .projects__link:focus {
     -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+            box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .projects__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
-    flex-basis: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
     background: var(--background-color-primary);
@@ -816,20 +816,21 @@ address {
     color: var(--secondary-font-color);
     background-color: rgba(33, 150, 243, 0.9);
     -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+            transform: translateY(100%);
     -webkit-transition-duration: 250ms;
-    transition-duration: 250ms;
+            transition-duration: 250ms;
     -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+            transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     -webkit-transition-property: -webkit-transform;
     transition-property: -webkit-transform;
     transition-property: transform;
     transition-property: transform, -webkit-transform;
 }
 
-.projects__link:hover .projects__overlay, .projects__link:focus .projects__overlay {
+.projects__link:hover .projects__overlay,
+.projects__link:focus .projects__overlay {
     -webkit-transform: translateY(0);
-    transform: translateY(0);
+        transform: translateY(0);
 }
 
 .projects__textgroup {
@@ -854,5 +855,4 @@ address {
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-
 /*# sourceMappingURL=main.css.map */

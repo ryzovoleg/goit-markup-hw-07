@@ -1,6 +1,6 @@
 /* ----- OUR TEAM ----- */
 
-.section--color {
+.section--other-color {
     background-color: var(--background-color-additional);
 }
 
@@ -25,7 +25,7 @@
     padding-bottom: 30px;
 }
 
-.team__name {
+.team__title {
     margin-bottom: 10px;
     text-align: center;
     color: var(--primary-font-color);
@@ -33,7 +33,7 @@
     @include font(16px, 500, 1.19, 0.03em);
 }
 
-.team__position {
+.team__text {
     margin-bottom: 16px;
     text-align: center;
     color: var(--description-font-color);
